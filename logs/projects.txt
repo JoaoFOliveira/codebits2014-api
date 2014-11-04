@@ -1,0 +1,805 @@
+Title: 2048x2
+Desc:  The 2048 game we all know and love with two-player-on-the-same-board competition.
+As usual, players win points by matching the numbers and when the game ends, the winner is the player with the highest score. It doesn't really matter if the game ends by matching the 2048 tile or because you can't make any more moves, all that matters is the score.
+This version of the game is a 2-player, turn based game where the users get a score per move equal to the number they created. We are aiming to have a fast paced game, so the time to make a move will be short (something between 3 to 10 seconds, we haven't decided yet).
+We will be using the Phune API for this game.
+
+----------------------------------------------
+
+Title: Dance your words away
+Desc:  We want to create an interactive performance where the audience and the dancers establish a direct communication channel with each other by using sound as a medium. We will explore the creation of natural interfaces using computer vision, audio processing, graphics and sound synthesis. Is it possible for vocabulary to emerge without words? Come dance your words away!
+
+We will be using computer-vision (Bonsai/C#) in order to extract motion measurements from two dancers in real-time using a variety of metrics; these will be used to feed parameters of a sound synthesizer using OSC that will generate auditory feedback to the audience.
+
+We will also capture and process audio feedback from the audience in real-time and generate feedback to the performers;
+
+Reaktor, Max/Msp, Reason or other generative sound platforms will be used for sound synthesis and possibly OpenGL for computer graphics (as a bonus only if there's time).
+
+----------------------------------------------
+
+Title: arranjem isto, porra!
+Desc:  Pretende-se promover a cidadania através da participação de ocorrências num determinado local através de um site e das apps associadas.
+Às vezes é difícil às autarquias saberem exatamente os problemas que estão a ocorrer em determinado momento (caixotes do lixo cheios, buracos, placas caídas, etc) daí ser necessária a participação dos cidadãos para chamar a atenção para estes.
+
+Se tivermos 100 pessoas a queixar-se de buracos na rua a probabilidade de o problema ser resolvido é maior que se for só um de nós a chatear a autarquia.
+
+
+Utilizamos "gamification"(rankings, medalhas, etc) e partilhas em redes sociais para manter o utilizador interessado em usar a aplicação para reportar as várias ocorrências.
+
+Se houver interesse dos municípios, juntas de freguesias, podem ser enviados relatórios semanais com as novas ocorrências dando mais destaque às que obtiverem mais pontuação/número de partilhas.
+
+Podemos ainda ter a possibilidade de receber "donations" para o projecto, via MEOWallet, para melhorar o projecto
+
+
+----------------------------------------------
+
+Title: Babel Talk
+Desc:  Hoje em dia existem milhões de utilizadores de smartphones “ligados” em todo o mundo, de diferentes culturas e nacionalidades, com necessidades de comunicação internacional. Para esbater as dificuldades de comunicação, nomeadamente através do idioma, propomo-nos a criar uma app que derrube essa barreira para facilitar a partilha de conhecimentos e aproximar as pessoas de diferentes partes do mundo. O funcionamento da app é simples: o utilizador apenas tem que definir qual o seu idioma. A partir desse momento pode, através da app, realizar e receber chamadas e SMS para pessoas de outras nacionalidades, sem que tenha que falar outro idioma. Todas as conversas e mensagens de texto serão traduzidas para o idioma que foi inicialmente selecionado.
+
+
+----------------------------------------------
+
+Title: Bet on a Frog
+Desc:  Imagine Horse Races. Done? Apply that to a webapp where the horses are the Codebits projects!
+
+We're doing a responsive webapp that allows carriers of Meo Wallet to bet on Codebits projects. They will be betting on the one they think will win and receive the respective prize.
+
+We are also implementing a side feature where project leaders may rent a special place on our page to gain more visibility.
+
+Hacking it in Rails + Backbone JS + MongoDB + Awesome Ink 3.0.
+
+Here's a prize for reading so far:
+http://images2.fanpop.com/image/photos/10500000/Cute-Kitty-Wallpaper-cats-10533694-1024-768.jpg
+
+Thanks! :D
+
+
+
+----------------------------------------------
+
+Title: Finder
+Desc:  A pensar neste problema surgiu o Finder, o Finder é uma plataforma, web e android, que comunica em tempo real as nossas cordenadas para o grupo, assim sabemos sempre onde está toda a gente, e encontramo-nos muito mais facilmente.
+
+O Finder além de transmitir as nossas cordenadas para o nosso grupo, também possui a funcionalidade "rede social baseada em geolocalização" e permite enviar mensagens geolocalizadas
+
+
+
+----------------------------------------------
+
+Title: MFTP - Mouse F*** Transfer Protocol
+Desc:  Imagine two computers and their mouses. Why not using the mouses to transfer data?
+It's possible? We don't know... but we'll try! Codebits for the WIN!
+
+----------------------------------------------
+
+Title: jogo para phun
+Desc:  vou fazer um jogo em que uma pessa jogo com o computador. o jogo tem varios niveis.
+uma pessoa tem no ecra varios objectos, o user clica num objecto e ele este objecto transforma-se noutro. Os objectos têm vários niveis, uns têm que ser batidos varias vezes para se tranformar noutro para ser destruido. quando um objecto é batido ele ou se transforma noutro mais basico ou se destroi em 4 rebuçados que voam para os 4 lados.
+e assim os nveis crescem de dificuldade e trona-se cada vez mais dificil e dificil de passar  o nivel. 
+
+----------------------------------------------
+
+Title: Gate 2 The World - Instant Spotsight 
+Desc:  Wifi Hot Spot para empresas
+- Assente num RASPEBERRY PI,
+- Portal de acesso de serviços em hoteis, cafés, bombas de abastecimento, etc... desenvolvido em INK 3.0
+- Acesso Wifi com pagamento via MEO WALLET
+- Sugestões de implementação automática por geo-referenciação
+         Indicação de POI's via SAPO MAPAS
+         Previsões do tempo via SAPO TEMPO
+         Subscrição de canais fechados do MEO
+         Compra de bilhetes de espectáculos SAPO VOUCHER
+         Contactos importantes: nºs táxis, policia, bombeiros, etc... )
+- Módulos adicionais
+         Apresentação e venda de produtos da empresa (sessões de SPA,...)
+         Centralização de pedidos de serviços internos
+         Agendamentos (Salas de conferências em hoteis)
+
+
+----------------------------------------------
+
+Title: Loot your enemies
+Desc:  A  3D Network battle game where you have to trade your wallet money for lives to keep playing and where you earn your opponent money after killing them. It will use Unity3D and Meo wallet. 
+
+
+----------------------------------------------
+
+Title: Mortal CAMbat
+Desc:  Interactive game, making use of the audience's motion as input to control the fighters.
+
+----------------------------------------------
+
+Title: MouseBits
+Desc:  If you have a smartphone or a tablet why we need to bring your mouse to places like codebits? 
+We aim to do better than your current mouse. 
+To accomplish this, we will use the accelerometer, gyroscope and multi touch technologies. 
+In a smartphone, we will move it like a normal mouse (using accelerometer and gyroscope), and with the multi-touch screen we can have more actions than a normal mouse.
+In a Tablet, with a bigger screen, we will try to replicate what mac's trackpad does (you can aim that Apple already have it with the "magic trackpad", but tablets screen are bigger and we don't plan do close to Mac OS, despite our prototype will run on a mac)
+
+----------------------------------------------
+
+Title: Pew! Pew! Pew!
+Desc:  This project goal is to create a portable implementation of a FPS (First Person Shooter) game running on a Raspberry Pi using immersive technology - namely the Oculus Rift head-mounted display and Microsoft Kinect sensors.
+
+Why?
+One of the biggest challenges of Oculus Rift based implementations is the wiring boundaries. A gaming experience can't be immersive enough if you can end up tangled in wires, tripping over them and permanently damaging your hard-earned gadgets. Our attempt to circumvent this issue is to run a FPS on a Raspberry Pi (stashed on a backpack, for instance) using the Oculus Rift for visualization.
+
+That sorts of the visualization part. What about control?
+
+Controlling the player position will be achieved using Microsoft Kinect. Parameters like movement direction and speed will be determined by the player gestures, limited, of course, to the Kinetic sensor range. Predefined gestures can be used to control remaining aspects of the game. Weapon control can be achieved with simple hardware hacks simulation keyboard interactions (yes, let's strip another 102-key keyboard for science sake!)
+
+The icing on top of the cake here is the ability to obtain self-awareness within the game. This will be achieved also through the use of Microsoft Kinect to map reality (the FPS player) to his/her own avatar inside the game. 
+
+We're at the lobster codebits table. If the term "lobster codebits" doesn't ring a bell, ask any regular attendee.
+
+----------------------------------------------
+
+Title: Penalty Pro League
+Desc:  Jogo web/mobile extremamente simples que assenta no espírito bairrista para se tornar viral e alcançar um número elevado de jogadores.
+Cada jogador escolhe uma equipa e tem que tentar marcar o maior número de golos possível fazer subir a equipa no ranking.
+
+
+
+----------------------------------------------
+
+Title: Much Roulette
+Desc:  Looking for easy money? Unpayable debt to druglord? Hate king Joffrey? Adrenaline lover? GoPro owner? 1000€ on MEO Wallet? Want Celso Marinho's extravagant lifestyle?
+
+Boom! Bam! Bing! Much Roulette brings you money, very wow, life solutions, unstable lifestyle, and possible shit loads of virtual money. Get on board!
+
+Much Roulette has five bidding rooms (1€, 5€, 10€, 100€, 1000€), ending every five minutes, with unlimited players. At the end, the special one is revealed. Get hooked.
+
+You can win up to 800.000€ each time.
+
+
+
+
+----------------------------------------------
+
+Title: walletRev
+URL:   http://wr.akaru.pt
+Desc:  Sistema de avaliação de satisfação de cliente baseado na walletMeo
+
+----------------------------------------------
+
+Title: ToBITas
+Desc:  Our project builds on the BITalino framework, which will enable the acquisition of several body signals, namely body movement using accelerometers, and multiple muscle activations using Electromyography (EMG). We will have the Bot n’roll mobile robot controlled using this signals in such a way that it mimics some of the behaviors of the person wearing the sensors. The Bot n’roll mobile robot is based on the Arduino, and can be controlled in real-time via Bluetooth serial port. The robot is capable of roaming using two controlled wheels, interacting with the environment with a claw, and sensing the world with two sonars assembled on a motorized head. We’ll place muscle sensors in several parts of the body, to allow motion control, claw control, and control of the sonar head. The real-time processing of the body signals acquired with the BITalino is performed on a custom-built app running on an Android smartphone, that interfaces with the BITalino and with the robot using Bluetooth. 
+
+
+
+
+
+----------------------------------------------
+
+Title: Polícias Beduínos
+URL:   http://github.com/andrefs/policias_beduinos
+Desc:  Sistema de inferência de tópicos mais relevantes num subconjunto de uma colecção de textos.
+
+----------------------------------------------
+
+Title: SAPO Tiles
+Desc:  Social and Professional extensions to SAPO Fotos.
+Plugins for Professional and Consumer Software together with mobile apps.
+
+Scopes:
+- Social: Follow great Artists and as an Artist get feedback inside your Apps.
+- Professional: Upload Photos/Videos right from your Favorite applications
+- Mobile: Upload, follow, explore, get feedback.
+
+We want to fill a gap currently on SAPO Fotos and the Professional Image Software by making a Light Room Plugin. Extend the SAPO Fotos API to be more social (follow, see followers). Create a Mobile App to explore and upload new content to SAPO Fotos. Allow Professionals to sell sock images.
+
+----------------------------------------------
+
+Title: WebAudio Beatbox
+Desc:  one button. many sounds.
+
+----------------------------------------------
+
+Title: Uhand
+URL:   http://uhand.iap4u.com/home.html
+Desc:  Everyone needs help at some point in their lives, we plan to make their cry for help easier to spread.
+
+User will be able to create campaigns asking for money for any given reason, and by using Meo Wallet contribute.
+
+More features can be added if the development process goes well.
+
+This project will be using INK 3.0 so that it can reach everyone that needs or wants to help.
+
+The website still needs some UI updates that will be done this night :) (11/04 to 12/04) 
+
+----------------------------------------------
+
+Title: YourSelfie
+Desc:  It's easy to take selfies now-a-days. But what do you do when you want a selfie from some moment in the past when selfies where not hip?
+
+This revolutionary app allows the user to select a past photo and to turn it into a selfie!
+
+To any photo there can be a selfie. To any photo there WILL be a selfie!
+
+----------------------------------------------
+
+Title: Wodit
+Desc:  This platform will provide a way to create WODs (which stands for "Workout of the Day"), and compete with people all over the world to determine who is the best crossfitter! It will provide a simple way to create new WODs, invite your friends to compete and see who is in better fit.
+We also want to encourage people to get up from their couches and give exercise a try :D
+
+----------------------------------------------
+
+Title: A Cappella Mixer
+Desc:  In this project, we want to enable those of us not graced with singing proficiency to create lyrics for their favourite songs. The project will allow users to either replace the original lyrics from a pre-defined set of songs with their own. More advanced users will be able to import their own video or music files and tell the application which lyrics to use (including when they occur in the song and its pitch – for that extra cheesy auto-tune feel).
+
+To do this, we are using the FreeT(i)TS library for speech synthesis and pitch modulation and the JSResources library for the video/audio mixing. Our application might also support language conversion, but for now we’re using our own custom-purpose built translator to generate an easter-egg language for those not versed in the more modern/popular Internet lingos.
+
+----------------------------------------------
+
+Title: WiNKO
+Desc:  Everybody knows what a bingo game is, anyway I will try to explain it in few simple steps:
+
+1) Register on our website;
+2) When you want to play, buy a card or buy N cards;
+3) Click "Play" when you want to play;
+4) You get a random card;
+5) Check out the new published items and check if you have them;
+6) When you have a full line, hit "Line!". You'll get money for that. [1]
+7) If someone else got a line, you'll be notified. Don't be sad, you can still win the bingo!
+8) When you have a full card, hit "Bingo!". You'll get money for that. [2]
+
+After the game is done, you'll receive whatever money you won.
+
+1, 2 - virtual money :)
+
+----------------------------------------------
+
+Title: Banana Market
+URL:   http://bananamarket.eu
+Desc:  We want to provide the best marketplace where sellers can sell their products in a easy fashion way, along the way we want buyers to have the best experience by having a 3 step buying process.
+
+We built a nodejs module wrapper for meo wallet which you can see in here: https://www.npmjs.org/package/meo-wallet
+
+----------------------------------------------
+
+Title: BattleBits
+Desc:  Everyone registered at the Codebits website has their own Personal Bot, whose appearance can be heavily configured, but it has no particular application...until now. With the help of a little math, we have managed to convert the 2D sprites that make up the bot into (rough) 3D representations of those bots automatically...and that’s where the fun begins.
+
+We intend to use those 3D bots to allow users to fight each other on Final Fantasy/Pokemon style battles on various types of arenas! The battles won't be exactly turn-based, but active time style. Friends and foes will be able to join as the battle goes on (as in any reasonable brawl).  And here’s the part that we intend to have most fun with. Since the theme is Codebits, we thought it could be interesting to have attacks based on the user skills: PHP, Mono/.NET, Processing, Cooking...basically the list that Codebits allows users to choose from in their profiles. These “skills” will be the “classes” each player can have. And that will lead to a set of very “geek” battle moves and items: a stackoverflow attack, a debugger shield, a garbage collector defense booster, etc.
+
+In short: a fast-paced, multiplayer mobile game full of geek references and a great Codebits touch...
+
+----------------------------------------------
+
+Title: Bubble Screen
+Desc:  The project is about writing messages in one tube of lava lamp.
+It consists in sending synchronized air bubbles through a vertical tube with viscous liquids, with materials like shapoo, aquarium plastic valves, air pumps, microcontrollers.
+The messages displayed in the Bubble Screen will be from webservices (like twitter, facebook…) with the subject #codebits.
+
+----------------------------------------------
+
+Title: Carrie
+URL:   https://github.com/JosePedroDias/carrie
+Desc:  Although the raspberry pi is compact and works without peripherals, one needs them to input data such as keypresses and mouse movements. 
+We propose to build an app which is twofold:
+- a server running in raspi, listening to carrie's input messages;
+- a web client running in html/css/js displaying keyboard/mouse/joystick and converting user generated events into the server's service. 
+The purpose is for one to be allowed to interact to raspi with your mobile device, without any real keyboard or mouse attached to the raspi.
+(we assume the wifi dongle to be attached to the raspi for convenience)
+
+----------------------------------------------
+
+Title: BetBits
+URL:   http://betbits.alcidesfonseca.com
+Desc:  We have:
+
+- Place bet and pay with MEO Wallet
+- Await for the deadline
+- CA$H or go home!
+
+Plus some extra features, gambling related ;)
+
+----------------------------------------------
+
+Title: Codebifes
+URL:   http://diutsu.net/codebifes
+Desc:  It's 13:20, registration closes in 10 minutes and everybody is bugging me to get ready for lunch!!
+
+Codebifes is a fast and intuitive way to arrange quick events such as meetings, going to lunch or hitting the bar.
+
+With Codebifes you can suggest places to your groups, ask your mates to postpone current events and check your friend's availability. All of this without hassle, without accessing distracting social networks and without breaking your workflow!
+
+So next time you want to get some pizza at Picoas, do it with Codebifes!
+
+----------------------------------------------
+
+Title: CodebitsConquer
+Desc:  A keep and conquer game that will reward stage owners from time to time. Conquer, raise your defenses and get rich!!
+
+Ink
+Meo Wallet
+Web
+
+----------------------------------------------
+
+Title: Coding booster
+Desc:  If someone is using an open source project/library and needs that a certain bug/issue to be solved with urgency, he can through this platform offer incentives and prizes to capture the interest of developers and speed up the process.
+
+More information will be added soon (including URLs)
+
+----------------------------------------------
+
+Title: Crowdbits
+URL:   http://crowdbits.herokuapp.com
+Desc:  The goal of this project is to develop a system of crowdfunding based on a webapp, similar to Kickstarter or Indiegogo, but completely "Made in Portugal" (TM) and using the MEO Wallet API.
+
+Technologies:
+
+- Ruby On Rails
+
+- MEO Wallet API
+
+- Sapo Ink
+
+
+
+----------------------------------------------
+
+Title: Challenge Accepted
+URL:   (down) http://teste86.di.uminho.pt:3000/
+Desc:  When challenging a friend (or being challenged), sometimes the challenger goes back on his word and doesn't pay up, or the challenged does not comply with the agreed upon consequences of not completing the challenge.
+
+Our application helps this process by working as an escrow. I.e.: upon challenging someone, the funds are transferred into an intermediary Meo Wallet account. 
+
+If the challenge is completed, the funds are transferred to the challenged person's Meo Wallet account. 
+
+If the challenged person fails to complete the challenge, the funds are refunded to the challenger's Meo Wallet account.
+
+If both parties cannot come to a consensus wether or not the challenge is completed, the funds are seized by the application's Meo Wallet account.
+
+Alternatively, instead of wagering money, humiliating publications can be posted on the challenger's or challenged's Facebook wall.
+
+We'll be using Ruby on Rails and Ink. Furthermore, we'll be resorting to Facebook's and Meo Wallets' API.
+
+----------------------------------------------
+
+Title: Da Greeks
+Desc:  Da Greeks é um jogo de tipo side-scrolling como o Banana Kong ou  Jetpack joyride,    que tem como tema a Mitologia Grega.
+O jogo tem como história a seguinte: Hermes, deus Grego Mensageiro, esta farto de fazer entregas dos Deuses Gregos resolve tirar umas férias, por isso envia as sandálias para Terra. A nossa personagem descobre as sandálias e torna-se no novo Deus Mensageiro. Mas os Deuses do Monte Olimpo não gostaram e resolveram inserir obstáculos nos percursos que a nossa personagem anda a percorrer para entregar as encomendas.
+O jogo terá várias missões principais(cada encomenda para um Deus Grego) e missões secundárias(objectivos ou desafios que os outros Deuses podem propor à nossa personagem, e,g 12 trabalhos de Hercules).
+A moeda do jogo é "Drachma", onde a personagem pode apanhar durante os percursos ou ganhar quando finaliza uma missão(principal ou secundária). Com este dinheiro, o utilizador pode comprar experiência(voo), power-ups e roupas ou acessórios.
+O jogo esta a ser desenvolvido em Unity e irá ser lançado para Windows Phone 8.
+
+
+
+
+
+----------------------------------------------
+
+Title: Da' Maze
+Desc:  A robotic maze solver powered by a web cam and a xy plotter.
+
+----------------------------------------------
+
+Title: Flappy feet
+URL:   http://videos.sapo.pt/SE029IqBPkz6zuHfNNGm
+Desc:  DAY 1: 
+"Let's just go to talks and ask for badges!"
+"No wait! Look Microsoft Kinect (and good looking chicks at the counter)!"
+"Let's do something cool with kinect!"
+Miguel Vicente(MS staff): "Go for it! If you do something cool you can keep it."
+
+------------------ 
+
+That's when ...
+
+                                      LET'S DO A JUMPING FLAPPY BIRD!!!!
+
+------------------
+We have gathered a super skilled taskforce to combine the mighty powerful Kinect and super cool features of Unity to create the most addictive game ever made.
+We grabbed a Unity's tutorial (we didn't know a thing about Unity) and adapted the design to a spectacular codebits theme!
+Through super complex models of physics, we created a routine to detect a person's jump.
+And then we combined both ... 
+
+The Result is F****** Awesome!
+
+
+PS: This was all done at codebits[!]
+
+----------------------------------------------
+
+Title: Icebreaker
+Desc:  This application will be built for android OS with a minimal interface for selecting the situation mode. The app will then give you solutions by using different sounds, recorded conversations and real time tips so that you can interact with others around you. At the end of each situation you will be able to rate the application tip in order to gather the best approaches for "breaking the ice".
+
+Despite being quite simple and fun, this app will be tested with real people on codebits.
+
+----------------------------------------------
+
+Title: INKed Maps
+URL:   http://www.inkedmaps.com
+Desc:  Hello, we're the Vakarian Team and this is INKed Maps!
+
+
+What we wish to do is to enhance the already existing map web apps by adding more information to them with the creation colored layer over the map.
+
+For example, suppose you're moving to a new house in a city you know little about. You also have kids. Wouldn't it be nice to know if the future neighbourhood is friendly enough to let the kids play in?
+
+Using this app, the user can search for the keywords "children/kids" for example and find areas of interested divided by colors: greener areas mean kids are welcome here while red areas aren't very children friendly.
+
+Or maybe you're on a wheelchair and you would like to know what areas of the city are wheelchair friendly and what other areas have no access for the disabled. Green areas mean the area is accessible to wheelchairs while red areas mean they're not accessible.
+
+In later stages, this map could be used by universities to create interactive maps for the campus, airports who want to showcase most popular sights, and companies interested in statistic studies. 
+
+
+
+Technologies used: INK, Sapo Mapas, HTML, CSS, Javascript, PHP and lots of coffee and tea (seriously, that Iced Tea from Nescafes machines is delicious)
+
+
+
+It sounds complex and maybe a little confusing, which is why we're putting together a demonstration using the Codebits main event area.
+
+So why don't you fill in this quiz to help us shape together the demo?
+
+http://codebits.sinesio.eu/
+
+
+----------------------------------------------
+
+Title: Game of Drones
+Desc:  Drones + Camera + WIFI + augmented reality game + pizza = Legen ... wait for it ... DARY GAME!
+
+Game of Drones will be a multi-player flight combat game played with real drones where all the action will be virtual. While flying with the quadcopter the player will try to shoot down other drones in order to survive the chaos. Visually, a player will have an interface on their base-station that will receive a video-stream from the quadcopter which will be processed by the gaming application to enhance the gaming experience with visual effects. 
+
+From the hardware perspective, this project focus on the use low-cost components such as cheap Chinese quadcopters (30€), cheap wireless routers such as TP-Link WR703N (15€) and a keychain USB webcams (30€) to create an accessible platform for an augmented reality multi-player game. 
+
+The TP-Link WR703N router running Linux OpenWrt OS will be used to support the USB webcam streaming feed via WIFI to a base station. Also TP-Link will scan the Quadcopter FIRE channel and push that info to the base station.
+
+From the base station side, a Python application will receive the Video Stream and Computer Vision algorithms will be applied to track down opponents and add visual effects to that stream. 
+
+The player base-station will also provide an interface to control the quadcopter Transmitter directly through a mechanical interface using Arduino and Servo motors allowing for future expansion by adding AI control
+
+There is also a plan to use a 3d Printer to create the required quadcopter casing to accommodate all the additional electronics.
+
+----------------------------------------------
+
+Title: Just a Story
+URL:   http://luiscorreia.pt/story
+Desc:  Never had an idea to write a book but never got past the first chapter?
+
+With our project others can help you continue your ideas and write along your story.
+
+Using a simple, responsive, mobile aware web interface, you will be able to experience an awesome way to write stuff!
+
+We'll use INK as an UI framework, PHP and MySQL to do the awesome stuff behind the web-app. 
+
+----------------------------------------------
+
+Title: Let's Eat
+URL:   https://github.com/tomahock/letseat/
+Desc:  The Let’s Eat app allows its users to setup a lunch or dinner event by inviting friends in his mobile phone list of contacts and gives recommendations of the best places to go based on previous events, the area and the weather conditions where the user is. It integrates a notification (RSVP) system to all the invitees promoting a quick interaction and decision process.
+The all system is based on a learning algorithm that should make relevant recommendations for time schedule, restaurants and friends to invite. Hopefully, after some use, users will not need to take any decision for a “regular” meal. This algorithm will be supported by a GraphDB infrastructure.
+A business layer will be easlily integrated based on sponsored restaurants that could be inserted at the top of the spot recommendations based on user location.
+The “Let’s” concept could be explored in a set of different scenarios: Let’s go the movies, Let’s run, Let’s get a pint, Let’s go shopping, etc…
+
+----------------------------------------------
+
+Title: Let's Meetup
+URL:   http://letsmeetup.io
+Desc:  New services such as Tinder (http://www.gotinder.com/) focus on geolocalization to bring two people that are interest in meeting each other. However, they have three stupid assumptions:
+- Users must own either an iOS or Android based mobile equipment.
+- Users must own Facebook account.
+- Suggestions are only based on location.
+
+That's not very cool.
+
+People usually belong to different communities (codebits, university, work, subway, etc..), and they might have interest in meeting someone whom they have exchanged glances with (wink wink). 
+
+Hence, letsmeetup.io (pronounced Let's Meet Up YO!) provides a platform where users can join their communities, or create new ones when they do not exist. The idea is to pick the user that you want to meet or skip the ones that you don't. When both users pick themselves (they are interested in meeting each other), a chat is created and both users may talk online, with the intend to continue the talk offline maybe? (wink wink)
+
+----------------------------------------------
+
+Title: Meet.io
+Desc:  It's unique set of services for Android and the Web let you create your own personalized contact card and share it through NFC or a QR Code with anyone you meet.
+The WebApp is powered by INK 3.0 and it's where you can create your personalized, animated, interactive and unique contact card.
+The Android app lets you share your card and receive other users cards.
+The cards you receive will be always backed up in your account and whenever your friend changes his card, it will automaticly update in your account so you will never lose a contact again.
+Both apps are powered by a Django backend.
+Sharing contacts as never been this fun!
+
+
+----------------------------------------------
+
+Title: MeoBet
+URL:   http://goo.gl/GQoQNI
+Desc:  A betting platform where you can bet with your MeoWallet credits.
+
+It is just that simple:
+
+- Choose an open bet;
+- Insert who much you want to bet, and what option do you pick;
+- Checkout the payment with the MeoWallet;
+- Wait to the bet end, to receive (or not) your prize.
+
+No registration needed, only the email to further operations.
+
+----------------------------------------------
+
+Title: Music Cam
+URL:   https://github.com/fmsf/soundcam
+Desc:  Using the stream of the web cam we extract the flow of movement that persons in front of the webcam are doing. For this we use a mix of frame subtraction for color differencing to generate music. The music itself is generated with controlled randomness. We apply an automata to a state machine and the notes selected to be played are directly influenced by a collection of metrics that are retrieved from the live stream pixels.
+
+We are doing this in Java using Processing libs. And have an awesome demo prepared to show, if we get selected for the finals.
+
+The music that you see in the video is still from a very alpha stage that we are tuning into perfection to show tomorrow.
+
+We'll set the github repo public a couple of hours before the Demos.
+
+The biggest challenge so far is working with different light settings.
+
+----------------------------------------------
+
+Title: My little pet - InnEmotion
+Desc:  We propose an interactive TV pet called "InnEmotion". This app will be able to run in MEO, Vodafone, will have insane animations for a TV application and will connect the feelings of the User with the pet via facial expressions.
+
+Main Goals: 
+ * The 1st module of this app will be developed in Mediaroom, Ericson languague to talk with Set-top Box's like, MEO, Vodafone.  We will make fluid animations that have never been implemented until this moment.
+ 
+ * In the 2nd  module we add to the pet an emotional system that is affected by:
+          - User interaction with remote control, e.g: feeding, tickling, gaming;
+          - User facial expressions meaning, it can read emotions from face of the user/player;
+  Depending on the current state of the emotional system the pet shows different feelings that are translated into:
+          - Different responsiveness to user interactions;
+          - Different pet faces, e.g: happy, sad;
+ 
+The emotions of the users are captured by tracking facial features of a live video of the user face through.
+
+* In the 3th of our "InnEmotion" the user can have access to the pet characteristics which change over the time and that are not related with emotions, e.g.: Inventory items, health, experience.
+
+----------------------------------------------
+
+Title: pay2down
+URL:   http://www.pay2down.com/
+Desc:  TBD
+
+----------------------------------------------
+
+Title: PushIdea
+URL:   http://pushidea.eu
+Desc:  A nossa ideia consiste numa plataforma, numa comunidade, onde existem três tipos de pessoas: Os empreendedores, que podem inserir as suas startups, os investidores, que podem financiar, monetariamente ou não - é possível dar outro tipo de financiamento, como material, escritório, qualquer coisa que o projecto necessite - , e pessoas que poderão participar nas ideias.
+O nosso projecto pretende juntar um pouco o conceito do crowd-funding com o conceito de business angels.
+O publico alvo do nosso projecto são todos os tipos de pessoas que querem arriscar num projecto inovador, que necessita tanto de apoio monetário, como de pessoas para trabalhar nele. Para além dessas pessoas, também vai servir para quem quiser investir dinheiro ou bens, possa fazer numa ideia que lhe pareça interessante.
+Em termos de skills estamos bastante a vontade com PHP, mySQL, HTML e CSS e também administração de sistemas linux.
+Pretendemos juntar o Meo Wallet para investimentos de dinheiro. Como framework web decidimos utilizar o Ink, devido à sua agilidade.
+
+
+----------------------------------------------
+
+Title: Pedidos de Informação
+URL:   http://pedidosdeinformacao.herokuapp.com
+Desc:  Project objective is to translate to Portuguese, adapt to the Portuguese reality, place online and test with live usage a Portuguese version of a platform that handles freedom of information requests.
+
+In Portuguese the referenced law is called "Lei de acesso aos documentos administrativos"
+http://www.cada.pt/modules/news/article.php?storyid=27
+
+Platform being ported/translated/adapted is called Froide
+http://stefanw.github.io/froide/
+Originally developed by Open Knowledge Foundation and currently in use in Germany, Austria and Finland.
+
+The project will assist citizens to place requests, help them find the correct institution to request from and search through similar requests made by other citizens. It also reduces the work from public institutions in terms of resources allocated to answer similar requests with similar information within due time. It also increases transparency of the institutions by providing a platform that will give visibility to the information, properly indexed and searchable online.
+
+Looking for people to join the team which can bring in any of the following skills:
+- pt/en translation skills
+- advanced heroku/django admin knowledge
+- knowledge on relevant portuguese legislation
+- real interest in continuing to use/admin/moderate the platform after codebits is done
+
+Done before codebits:
+- 70% translation (the easy parts)
+- register .pt domain
+- heroku test install
+
+To do during codebits:
+- The reminder translation (the hard parts + validation)
+- get .pt domain forwarding to heroku server
+- heroku update with translated version
+- live test
+
+----------------------------------------------
+
+Title: NeLo - Weareable Open Hardware for Polio Patients
+URL:   http://nelocodebits.blogs.sapo.pt/
+Desc:  This project involves the gathering and creation of a documentation page for free distribution with information about the potencial users of this device.
+
+To conclude this project we require some skills like:
+- Electronics
+- Arduino
+- Servos
+- Design
+- 3D Printing
+- Markeing
+- Sewing
+
+The participants of this project meet only on Codebits, Pedro Leite and Basilio met at Codebits V and never had a project together. Ana Carolina only met us this year on the first day of Codebits.
+
+We believe we have a prototype that can be seen.
+
+The idea for this project comes from a photo of Pedro Leite's dad, with the metallic harness as a child.
+
+Este projeto envolve a recolha e criação de uma página de documentação para distribuição livre, com informação sobre os potenciais utilizadores deste dispositivo.
+
+Para o concluir são necessárias algumas skils, como:
+- Electrónica
+- Arduino
+- Servos
+- Design
+- Impressão 3D
+- Marketing
+- Costura
+
+Os participantes deste projeto conheceram-se apenas no Codebits, o Pedro Leite e o Basílio conheceram-se no Codebits V e nunca tinham feito um projeto juntos. A Ana Carolina só nos conheceu neste ano e no primeiro dia de Codebits.
+
+Consideramos já ter um protótipo que se pode demonstrar.
+
+A ideia para o projeto vem de uma foto do pai do Pedro Leite a usar a armação metálica, em criança.
+
+----------------------------------------------
+
+Title: QRush
+Desc:  "Emotional Runkeeper for motorcyclists."
+
+
+This project aims to combine the path tracking features (common in apps such as Strava or Runkeeper) with the emotional and bio-feedback of the user in high-adrenaline situations, namely in the world of motorcycle riding.
+
+
+To accomplish this, we use in conjunction:
+- A riding glove, fitted with a Bitalino with ECG, EDA and EMG sensors, to grab the rider's emotional and bio response.
+- A smartphone companion app to start and stop riding sessions as well as capture GPS and Bitalino data during the ride and sync it to the web.
+- A web-based app to allow the riders to review their courses, along with their emotional responses along the way. These rides are made available to the rider's friends to also view and comment on his performance (and, if time allows it, be able to sync the data with video of the ride).
+
+
+Ultimately, we aim to provide a way to share thrilling rides with friends, not only physically, but emotionally.
+
+----------------------------------------------
+
+Title: Smartime
+Desc:  Trata-se de um sistema que permite rentabilizar o teu tempo numa fila de espera porque no fundo podes recuperar muita coisa... menos o tempo.
+
+EXPLICAÇÃO DETALHADA:
+
+Smartime, é um sistema de gestão de filas de espera.
+Consiste numa aplicação em Android e iOS, mais uma plataforma web, e pretende ser um serviço gratuito, centralizado e em tempo real.
+
+Num serviço como a loja do cidadão ou uma MEO Store onde podem acontecer períodos de espera muito longos, seria interessante dar possibilidade de rentabilizar esse tempo. Também temos o intuito de agrupar vários serviços na nossa plataforma.
+
+Em termos das aplicações móveis, têm como objectivo de:
+ - Tirar uma senha digital no local
+ - Verificar uma lista de espera de um local
+ - Configurar um alarme para indicar a sua vez na fila
+ - Aviso de atendimento
+
+Para a plataforma web:
+ - Verificar uma lista de espera de um local
+ - Futuras ideias: contas premium, estatísticas, integração de promoções que um serviço dispõe, etc.
+
+
+
+----------------------------------------------
+
+Title: Sound Rider
+Desc:  This is a multi player racing game. The race track happens in space and the racing spaceships are directed by light particles indicators. It is a stopwatch kind of race if in single player and normal player v.s. player if in multi player mode. There are also obstacles dynamically generated by the sound beats. So, the player must feel and "ride" the music in order to not crash on the way, by predicting the dynamically appearing obstacles though music.
+
+----------------------------------------------
+
+Title: Qwipe
+Desc:  We are developing the project in Unity.
+
+We want to create a cube covered in tiles that the gamer can swipe either up/down or left/right. 
+
+This way the gamer is not playing one game but six at the same time, the moves he choses to make, influence all faces of the cube.
+
+The game will be timed and points will be awarded for matching equal tiles.
+
+In the end the total points won in the game session will be shown to the gamer.
+
+----------------------------------------------
+
+Title: ReStart
+Desc:  Nowadays, when we have an out-of-this-world idea, we tend to rely on enterprise programs that provide us with the right financial solutions and the right tools to strike forward. But what about ordinary people? Can they have the same impact as these enterprises? That's why there's ReStart. ReStart is a platform for entrepreneurs looking for the right people to help them materialize their idea in mind.
+
+----------------------------------------------
+
+Title: Subzam
+URL:   http://144.64.226.159:3000/
+Desc:  We're using speech to text recognition and subtitle indexing to retrieve meaningful results.
+
+The subtitles are stored in a full-text search engine and are matched to the speech to text output to improve results accuracy.
+
+We're using Ruby on Rails, OSDB to get the subtitles, Solr to index the information and Webkit Web Speech API for the speech recognition.
+
+
+
+----------------------------------------------
+
+Title: Tabs
+Desc:  Using the MEO Wallet's API we can build simple apps for both customers and merchants that are already compatible with their devices and take full advantage of todays technologies such as BLE/iBeacon to provide indoor location and identification.
+
+Our project envisions a simple way for customers to allow specific stores to open up running tabs for them and pay for goods and services without taking out their phone every time they walk in to buy something.
+
+----------------------------------------------
+
+Title: Taiki bot
+Desc:  O Taiki bot trata-se de um dispositivo que quando ligado à internet está pronto a receber as "novidades" (aka notificações), como por exemplo, novos e-mails recebidos, actualizações em rss feeds ou até notificações de outros users nos queiram mandar. As "novidades" são mostradas através de leds RGB.
+
+
+
+
+----------------------------------------------
+
+Title: Telephone Operator as a Service
+URL:   http://dl.dropboxusercontent.com/u/43177464/codebits2014/503/index.html
+Desc:  Telephone Operator as a Service is a REST API that allows anyone to create clients that interact with a multitude of services over the telephone line.
+
+We already have 2 working proof-of-concept clients:
+
+1) The one-click pizza - android app that orders a pizza with a single click 
+
+2) The panic button - physical button (using an arduino) that calls the emergency services and provides the user's name and location to the authorities;
+
+In each of the examples the client only makes a simple API call to our server. We then generate the text for the conversation and make the phone call using a VOIP service to the service provider (pizza place, police, massage parlour, etc...).
+
+----------------------------------------------
+
+Title: The Codebits Gym
+Desc:  A web game that lets you practice your programming skills in a fun and interactive kind of way. The game plays against you in your quest to survive for as long as you can, while always writing code. To get a picture of what the Gym is like, imagine yourself coding in an environment designed by a 12 year old girl, coding with a messed up keyboard or getting hints by the annoying MS Clippy.
+
+
+These game hazards can rise the level of complexity or just give you a laugh while improving your programming skills. If play() return awesome;
+
+
+----------------------------------------------
+
+Title: Translomato
+Desc:  User-friendly back office where the team can manage the translations and other app resources.
+
+Apps have a native SDK that automatically downloads and provides up to date resources without app recompilation. -> Faster test cycles, frees programmers from managing these resources.
+
+Automatic downloads are for use during development only! Command line tool is provided to upload and download resources for use in release versions.
+
+JSON/XML editing for parameter tuning (animations, colors, etc).
+
+
+----------------------------------------------
+
+Title: The Spelling Loom
+Desc:  There are already spelling games out there, but ours will be unique:
+
+1) Our game will especially support lesser-used languages like Mirandese, Minderico, Basque, Irish and others. The game will be used in language revitalization projects in Portugal and other countries. Our main target are kids in school that learn lesser-used languages as their second language, the age group is between 8 and 16. We will start with a version for Portuguese speakers that learn Minderico. The game will be adaptable to any language combination.
+
+2) The user interaction will be inspired by the techniques that people use in Minde and other villages in Portugal to weave traditional textiles. The user will weave a pattern by spelling words. We plan to use traditional weaving technology mostly as metaphors in the user interface and in the interaction design (for example a tilt of the device will move the weaving shuttle to check wether the word was spelled correctly and add the word to the pattern).
+
+3) The user will learn about patterns in language, textile and music. We will use colors for the word "strings" that we add to the growing patterns to encode the instrument of the music. The position of each letter will encode the pitch.
+
+We will use Javascript to develop the game and PhoneGap to build apps for several platforms. The first target platforms will be Windows 8 and Windows Phone, as we get technical and marketing support by Microsoft as GameDev VIPs.
+
+We are looking for a designer and a composer for the project. We definitely plan to bring the game to market after Codebits, any revenue will be shared among all team members.
+
+----------------------------------------------
+
+Title: Wolf of Codebits
+URL:   http://wolfofcodebits.com
+Desc:  Our goal is to create a Codebits 2014 stock exchange, where you can trade each project using your virtual Meo Wallet money! You will be able to use your virtual money to buy and sell stocks on each project that you feel has a promising future! 
+
+Each group of founders can make an Initial Public Ofering of their project and will be issued the corresponding amount of stock as per the number of founders. Then the stock will be available for trading.
+
+Each order can be put on the stock exchange with the desired price, if it's a buy or a sale and the quantity available for the transaction. Our platform will then match each buy with a corresponding sale and present the last price as the market value for each stock. Also of interest will be the Market Capitalization of each project, which corresponds to the total amount of issued shares multiplied by the current market price. This is the market value of the project. 
+
+Let's see who has the confidence to put their project in the market and which project achieves the highest value!
+
+----------------------------------------------
+
+Title: Wanderer
+Desc:  Recycling an old toy, we are creating a simple robot, with simple behaviours. The ideia is to give it a BigTrak sort of control, while having a (rather limited) mind of it's own... A Raspberry Pi is it's brain.
+
+----------------------------------------------
+
+Title: Veerc
+Desc:  Veerc is a web IRC client that maintains the user always logged in on IRC channels, maintaining a log of all activity even while disconnected.
+
+----------------------------------------------
+
+Projectos: 67
