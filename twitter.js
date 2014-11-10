@@ -9,7 +9,7 @@ var twitters = returned = 0;
 
 codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 
-	if(err)	throw err;
+	if(err)	{ throw err };
 
 	// Iterate through accepted users with javascript skills
 	codebits.users.listAcceptedUsers('javascript', function (err, reply){
@@ -26,7 +26,7 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 		   		}
 
 		   		if(returned === reply.length) {
-	   	   			console.log("JavaScript ppl com Twitter handle: " + twitters);
+	   	   			console.log('JavaScript ppl com Twitter handle: ' + twitters);
 	   	   		}
 
 		   	});

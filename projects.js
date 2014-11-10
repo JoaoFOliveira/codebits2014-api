@@ -9,7 +9,7 @@ var returned = 0;
 
 codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 
-	if(err)	throw err;
+	if(err)	{ throw err };
 
 	// Iterate through projects
 	codebits.projects.listProjects(function (err, reply){
@@ -20,15 +20,15 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 		   		if(err) { throw err; returned++ }
 		   		returned++;
 
-		   		console.log("Title: " + project.title);
-		   		project.url ? console.log("URL:   " + project.url) : false;
-		   		console.log("Description:  " + project.description);
+		   		console.log('Title: ' + project.title);
+		   		project.url ? console.log('URL:   ' + project.url) : false;
+		   		console.log('Description:  ' + project.description);
 		   		console.log();
-		   		console.log("----------------------------------------------");
+		   		console.log('----------------------------------------------');
 		   		console.log();
 
 		   		if(returned === reply.length) {
-	   	   			console.log("Number of projects: " + returned);
+	   	   			console.log('Number of projects: ' + returned);
 	   	   		}
 
 		   	});

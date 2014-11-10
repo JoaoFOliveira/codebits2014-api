@@ -4,7 +4,7 @@
  */
 
 var fs = require('fs');
-var lazy = require("lazy");
+var lazy = require('lazy');
 
 var twitterAPI = require('node-twitter-api');
 var twitter = new twitterAPI({
@@ -13,8 +13,8 @@ var twitter = new twitterAPI({
     callback: 'http://www.site.com'
 });
 
-var accessToken = "*****";
-var accessTokenSecret = "*****";
+var accessToken = '*****';
+var accessTokenSecret = '*****';
 
 var handles = Array();
 var count = 0;
@@ -49,13 +49,13 @@ function getFollowers(page) {
         handles.forEach(function(handle){
           var exists = false;
           data.users.forEach(function(user){
-            if(user["screen_name"].toLowerCase() == handle) exists = true;
+            if(user['screen_name'].toLowerCase() == handle) exists = true;
           });
           if(!exists) {
 
             // sendTweet(handle); // You mad? Check count, check already sent tweets and stop this before we get permabanned!
 
-            console.log("Soon gonna tweet " + handle);
+            console.log('Soon gonna tweet ' + handle);
             count++;
           }
         });
@@ -64,7 +64,7 @@ function getFollowers(page) {
         if(data.next_cursor !== 0) {
           getFollowers(data.next_cursor);
         } else {
-          console.log("Let's ship " + count + " tweets");
+          console.log('Let\'s ship ' + count + ' tweets');
         }
 
 	    }
@@ -73,8 +73,8 @@ function getFollowers(page) {
 
 function sendTweet(handle) {
   var r = getRandomInt(0, 9);
-  var statusMsg = "@" + handle + " " + randomMsg[r];
-  twitter.statuses("update", {
+  var statusMsg = '@' + handle + ' ' + randomMsg[r];
+  twitter.statuses('update', {
         status: statusMsg
     },
     accessToken,
@@ -84,7 +84,7 @@ function sendTweet(handle) {
             console.log(error);
             // something went wrong
         } else {
-            console.log("Tweet sent to " + handle);
+            console.log('Tweet sent to ' + handle);
             // data contains the data sent by twitter
         }
     }
