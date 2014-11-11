@@ -17,19 +17,21 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 
 		// Iterate through each user info
 		for(var i in reply) {
-		   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
-		   		returned++;
+			if(reply.hasOwnProperty(i)) {
+			   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
+			   		returned++;
 
-		   		if(user.twitter) {
-		   			console.log(user.twitter);
-		   			twitters++;
-		   		}
+			   		if(user.twitter) {
+			   			console.log(user.twitter);
+			   			twitters++;
+			   		}
 
-		   		if(returned === reply.length) {
-	   	   			console.log('JavaScript ppl com Twitter handle: ' + twitters);
-	   	   		}
+			   		if(returned === reply.length) {
+		   	   			console.log('JavaScript ppl com Twitter handle: ' + twitters);
+		   	   		}
 
-		   	});
+			   	});
+		   }
 		}
 	});
 

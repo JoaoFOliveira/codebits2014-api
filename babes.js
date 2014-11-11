@@ -18,23 +18,25 @@ codebits.auth.logIn('email@email.com', '********', function (err, token) {
 
 		// Iterate through each user info
 		for(var i in reply) {
-		   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
-		   		returned++;
+			if(reply.hasOwnProperty(i)) {
+			   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
+			   		returned++;
 
-		   		var name = user.name; var nameArr = name.split(' '); var fn = nameArr[0]; var x = '';
-		   		var is_babe = fn.slice(-1) === 'a' || weirdBabeNames.indexOf(fn)>-1;
-		   		if(is_babe) {
-		   			babes++;
-		   			x = ' - IT\'S A BABE!';
-		   		}
+			   		var name = user.name; var nameArr = name.split(' '); var fn = nameArr[0]; var x = '';
+			   		var isBabe = fn.slice(-1) === 'a' || weirdBabeNames.indexOf(fn)>-1;
+			   		if(isBabe) {
+			   			babes++;
+			   			x = ' - IT\'S A BABE!';
+			   		}
 
-		   		console.log(fn + x);
+			   		console.log(fn + x);
 
-		   		if(returned === reply.length) {
-	   	   			console.log('Babes: ' + babes);
-	   	   		}
+			   		if(returned === reply.length) {
+		   	   			console.log('Babes: ' + babes);
+		   	   		}
 
-		   	});
+			   	});
+			}
 		}
 	});
 

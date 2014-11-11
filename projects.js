@@ -21,7 +21,7 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 		   		returned++;
 
 		   		console.log('Title: ' + project.title);
-		   		project.url ? console.log('URL:   ' + project.url) : false;
+		   		console.log('URL: ' + project.url);
 		   		console.log('Description:  ' + project.description);
 		   		console.log();
 		   		console.log('----------------------------------------------');

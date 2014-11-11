@@ -31,25 +31,19 @@ var randomMsg = [
   'such JavaScript skills, much awesome community! :)',
   'JavaScript ftw, right? right?? :)'];
 
-new lazy(fs.createReadStream('./logs/twitter.txt'))
-    .lines
-    .forEach(function(line){
-      handles.push(line.toString());
-    }
-).on('pipe', function(){
-  getFollowers(-1);
-});
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 function getFollowers(page) {
-	twitter.followers('list', { screen_name:'opojs', cursor: page, count:200 },accessToken, accessTokenSecret, function(error, data, response) {
-	    if (error) {
-	        console.log(error);
-	    } else {
-        var users = data.users;
+  twitter.followers('list', { screen_name:'opojs', cursor: page, count:200 },accessToken, accessTokenSecret, function(error, data, response) {
+      if (error) {
+          console.log(error);
+      } else {
         handles.forEach(function(handle){
           var exists = false;
           data.users.forEach(function(user){
-            if(user['screen_name'].toLowerCase() == handle) exists = true;
+            if(user['screen_name'].toLowerCase() === handle) {exists = true;}
           });
           if(!exists) {
 
@@ -67,8 +61,8 @@ function getFollowers(page) {
           console.log('Let\'s ship ' + count + ' tweets');
         }
 
-	    }
-	});
+      }
+  });
 }
 
 function sendTweet(handle) {
@@ -91,6 +85,11 @@ function sendTweet(handle) {
   );
 }
 
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+new lazy(fs.createReadStream('./logs/twitter.txt'))
+    .lines
+    .forEach(function(line){
+      handles.push(line.toString());
+    }
+).on('pipe', function(){
+  getFollowers(-1);
+});

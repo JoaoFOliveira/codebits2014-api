@@ -17,18 +17,20 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 
 		// Iterate through each user info
 		for(var i in reply) {
-		   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
-		   		returned++;
-		   		if(user.checkin_date == '0') {
-		   			console.log('Mr.Pussy ' + user.name + ' did not show up!');
-		   			pussies++;
-		   		}
+			if(reply.hasOwnProperty(i)) {
+			   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
+			   		returned++;
+			   		if(user.checkin_date === '0') {
+			   			console.log('Mr.Pussy ' + user.name + ' did not show up!');
+			   			pussies++;
+			   		}
 
-		   		if(returned === reply.length) {
-	   	   			console.log('There is a herd of ' + pussies + ' pussies');
-	   	   		}
+			   		if(returned === reply.length) {
+		   	   			console.log('There is a herd of ' + pussies + ' pussies');
+		   	   		}
 
-		   	});
+			   	});
+		   }
 		}
 	});
 
