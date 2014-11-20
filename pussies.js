@@ -7,6 +7,21 @@
 var codebits = require('codebits');
 var pussies = returned = 0;
 
+function getUser(user) {
+   	codebits.users.getUserbyID(user.id, function(err, user) {
+   		returned++;
+
+   		if(user.checkin_date === 0) {
+   			console.log('Mr.Pussy ' + user.name + ' did not show up!');
+   			pussies++;
+   		}
+
+   		if(returned === user.length) {
+   			console.log('There is a herd of ' + pussies + ' pussies');
+   		}
+   	});
+}
+
 codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 
 	if(err)	{ throw err };
@@ -18,18 +33,7 @@ codebits.auth.logIn('email@email.com', '*****', function (err, token) {
 		// Iterate through each user info
 		for(var i in reply) {
 			if(reply.hasOwnProperty(i)) {
-			   	codebits.users.getUserbyID(reply[i].id, function(err, user) {
-			   		returned++;
-			   		if(user.checkin_date === '0') {
-			   			console.log('Mr.Pussy ' + user.name + ' did not show up!');
-			   			pussies++;
-			   		}
-
-			   		if(returned === reply.length) {
-		   	   			console.log('There is a herd of ' + pussies + ' pussies');
-		   	   		}
-
-			   	});
+			   	getUser(reply[i]);
 		   }
 		}
 	});
