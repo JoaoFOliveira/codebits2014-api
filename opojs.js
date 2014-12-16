@@ -3,6 +3,8 @@
  * by: João Oliveira (@joao_oliveira)
  */
 
+'use strict';
+
 var fs = require('fs');
 var lazy = require('lazy');
 
@@ -16,7 +18,7 @@ var twitter = new twitterAPI({
 var accessToken = '*****';
 var accessTokenSecret = '*****';
 
-var handles = Array();
+var handles = [];
 var count = 0;
 
 var randomMsg = [
@@ -36,14 +38,14 @@ function getRandomInt(min, max) {
 }
 
 function getFollowers(page) {
-  twitter.followers('list', { screen_name:'opojs', cursor: page, count:200 },accessToken, accessTokenSecret, function(error, data, response) {
+  twitter.followers('list', { screen_name:'opojs', cursor: page, count:200 },accessToken, accessTokenSecret, function(error, data) {
       if (error) {
           console.log(error);
       } else {
         handles.forEach(function(handle){
           var exists = false;
           data.users.forEach(function(user){
-            if(user['screen_name'].toLowerCase() === handle) {exists = true;}
+            if((user.screen_name).toLowerCase() === handle) {exists = true;}
           });
           if(!exists) {
 
@@ -73,7 +75,7 @@ function sendTweet(handle) {
     },
     accessToken,
     accessTokenSecret,
-    function(error, data, response) {
+    function(error) {
         if (error) {
             console.log(error);
             // something went wrong

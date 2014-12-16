@@ -3,10 +3,11 @@
  * by: João Oliveira (@joao_oliveira)
  */
 
+'use strict';
 
 var codebits = require('codebits');
-var babes = returned = 0;
-var weirdBabeNames = ['Inês','Beatriz','Melanie','Astrid']
+var babes = 0, returned = 0;
+var weirdBabeNames = ['Inês','Beatriz','Melanie','Astrid'];
 
 function getUser(user) {
    	codebits.users.getUserbyID(user.id, function(err, user) {
@@ -27,13 +28,13 @@ function getUser(user) {
    	});
 }
 
-codebits.auth.logIn('email@email.com', '*****', function (err, token) {
+codebits.auth.logIn('email@email.com', '*****', function (err) {
 
-	if(err)	{ throw err };
+	if(err)	{ throw err; }
 
 	// Iterate through accepted users
 	codebits.users.listAcceptedUsers(function (err, reply){
-		if(err) { throw err; returned++ }
+		if(err) { returned++; throw err; }
 
 		// Iterate through each user info
 		for(var i in reply) {

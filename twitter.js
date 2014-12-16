@@ -3,9 +3,10 @@
  * by: João Oliveira (@joao_oliveira)
  */
 
+'use strict';
 
 var codebits = require('codebits');
-var twitters = returned = 0;
+var twitters = 0, returned = 0;
 
 function getUser(user) {
    	codebits.users.getUserbyID(user.id, function(err, user) {
@@ -23,13 +24,13 @@ function getUser(user) {
    	});
 }
 
-codebits.auth.logIn('email@email.com', '*****', function (err, token) {
+codebits.auth.logIn('email@email.com', '*****', function (err) {
 
-	if(err)	{ throw err };
+	if(err)	{ throw err; }
 
 	// Iterate through accepted users with javascript skills
 	codebits.users.listAcceptedUsers('javascript', function (err, reply){
-		if(err) { throw err; returned++ }
+		if(err) { returned++; throw err; }
 
 		// Iterate through each user info
 		for(var i in reply) {

@@ -3,13 +3,14 @@
  * by: João Oliveira (@joao_oliveira)
  */
 
+'use strict';
 
 var codebits = require('codebits');
 var returned = 0;
 
 function getProject(project) {
    	codebits.projects.getProjectInfo(project.id, function(err, project) {
-   		if(err) { throw err; returned++ }
+   		if(err) { returned++; throw err; }
    		returned++;
 
    		console.log('Title: ' + project.title);
@@ -26,9 +27,9 @@ function getProject(project) {
    	});
 }
 
-codebits.auth.logIn('email@email.com', '*****', function (err, token) {
+codebits.auth.logIn('email@email.com', '*****', function (err) {
 
-	if(err)	{ throw err };
+	if(err)	{ throw err; }
 
 	// Iterate through projects
 	codebits.projects.listProjects(function (err, reply){
